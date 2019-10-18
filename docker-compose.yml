@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+    - "57300:7300"
+    depends_on:
+      - redis
+      - mongo
+    links:
+    - redis
+    - mongo
+  redis:
+    image: redis
+  mongo:
+    image: mongo
