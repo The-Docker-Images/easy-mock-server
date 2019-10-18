@@ -1,6 +1,6 @@
-# Easy Mock Server Docker
+# [Easy Mock](https://github.com/easy-mock/easy-mock) Server Docker Compose
 
-Easy Mock Docker Compose
+[Easy Mock](https://github.com/easy-mock/easy-mock) Docker Compose
 
 ## Usage
 
