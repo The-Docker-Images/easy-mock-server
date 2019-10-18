@@ -3,12 +3,12 @@
   "host": "0.0.0.0",
   "pageSize": 30,
   "proxy": false,
-  "db": "mongodb://localhost/easy-mock",
+  "db": "mongodb://mongo/easy-mock",
   "unsplashClientId": "",
   "redis": {
-    "keyPrefix": "[Easy Mock]",
+    "keyPrefix": "[Easy Mock Item]",
     "port": 6379,
-    "host": "localhost",
+    "host": "redis",
     "password": "",
     "db": 0
   },
